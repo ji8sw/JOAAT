@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JOAAT CONVERTER</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #3b3b3b;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ffffff;
+        }
+
+        .Buttons {
+            background-color: #242424;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .Home-Button {
+            background-color: #242424;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .Home-Button {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        .Home-Button:hover {
+            background-color: #303030;
+        }
+
+        #TextInput {
+            width: 150px;
+            height: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+            font-size: 16px;
+        }
+
+        #Output {
+            width: 150px;
+            height: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+            font-size: 16px;
+            background-color: #fffafa;
+        }
+    </style>
+</head>
+<body>
+    <h1>JOAAT CONVERTER</h1>
+    <button class="Home-Button" onclick="window.location.href='https://ji9sw.xyz'"><</button>
+
+
+    <input type="text" id="TextInput" placeholder="Enter Text">
+    <button id="ConvertButton" class="Buttons">Convert</button>
+    <br>
+    <input type="text" id="Output" disabled placeholder="Output">
+    <script src="JS.JS"></script>
+</body>
+</html>
